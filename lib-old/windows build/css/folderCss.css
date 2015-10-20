@@ -1,0 +1,38 @@
+
+.explorerAddressArea{
+    height: 30px; 
+    background: #000; 
+    width: 98.1%;
+    margin: 0 auto; 
+    
+}
+
+
+
+.exploreLinkHeader{
+ background: #d9dff0  linear-gradient(to bottom,  #fdfdff 0%,#e4e9f4 35%,#d3daec 46%,#e0e5f5 96%,#b5bbcb 98%,#efefef 100%); 
+    border-bottom: 1px solid #f0f0f0; 
+    border-radius: 2px; 
+    
+}
+
+.navLinks{list-style: none; margin:0; padding: 0; border-bottom: 1px solid #d7d1bd;}
+.navLinks li{display: inline-block; padding: 6px 0
+                 
+.navLinks li:first-child{padding-left: 15px; } 
+.navLinks li+li{padding-left: 10px; }
+.navLinks a{text-decoration: none; color: ;}
+
+.backBtnArea{min-height: 40px; border-top: 1px solid #fff; border-bottom: 1px solid #d7d1bd;}
+
+.addressBtn{min-height: 30px; border-top: 1px solid #fff; }
+
+
+.dialogContent{padding: 0 !important; margin: 0; border:0px; }
+.taskBar{
+    height:200px; 
+    width: 300px;
+    background: #7190de; 
+    
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dialog Box</title>
+        <style>
+        textarea:focus, input:focus {
+    	color: #000;
+		}
+
+		input, select, textarea{
+    	color: #c0c0c0;
+		float:left;
+		}
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/localAreaConnection.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="dialogContainer generalShadow">
+            <div class="dialogHeader">
+                <div class="dialogTitleArea leftFloat">
+                <div class="imageIcon leftFloat"></div><!--imageIcon-->
+                <div class="dialogTitle leftFloat">
+                  <p>Local Area Connection Properties</p></div><!--dialogTitle-->
+                <div class="clrFloat"></div> 
+                </div> <!--dialogTitleArea-->
+                <div class="dialogbtnsArea rightFloat">
+              
+                        <!--<div id="dialogMinize" class="greybutton leftFloat"><div class="btnIconShadow" id="minimizeBtnIcon"> </div></div>
+                        <div id="dialogMaximize" class="greybutton leftFloat"><div class="btnIconShadow" id="maximizeBtnIcon"> </div></div>-->
+                        <div id="dialogClose" class="redbutton rightFloat"><div id="clseBtnIcon"> </div> </div>
+
+                        <div class="clrFloat"></div> 
+            
+
+                </div> <!--dialogbtnsArea-->
+
+                <div class="clrFloat"></div> 
+                
+            </div><!--dialogHeader--> 
+            
+            
+            
+            <div class="dialogBody">
+                <div class="generalButton">General</div>
+                <div class="advancedButton">Advanced</div>
+                <div class="emptyArea"></div>
+
+                <div class="dialogContent">
+				<p>Connect using:</p>
+                <div class="innerContentBox">
+                <div class="imageIcon leftFloat"></div>
+                <p>Broadcom NetXtreme 57xx Gigabit C</p></div>
+                
+                <div class="innerContentButton" id="configure">Configure...</div>
+                <br/><br/><br/><p>This connection uses the following items:</p><br/>
+				<div class="checkList">
+                <input type="checkbox" checked> <div class="imageIcon leftFloat"></div> Client for Microsoft Networks<br>
+                <input type="checkbox" checked> <div class="imageIcon leftFloat"></div> File and Printer Sharing for Microsoft Networks<br>
+                <input type="checkbox" checked> <div class="imageIcon leftFloat"></div> QoS Packet Scheduler<br>
+                <input type="checkbox" checked> <div class="imageIcon leftFloat"></div> Internet Protocol (TCP/IP)<br></div>
+                
+				<div class="innerContentButton" id="install">Install...</div>
+                <div class="innerContentButton" id="uninstall">Uninstall...</div>
+                <div class="innerContentButton" id="properties">Properties</div>
+                
+                <div class="bottomParagraph"><div class="descriptionTitle">Description</div><br/>Transmission Control Protocol/Internet Protocol. The default wide area network protocol that provides communication across diverse interconnected networks.</div>
+                <div class="finalCheckbox">
+                <input type="checkbox" checked> Show icon in notification area when connected<br>
+                <input type="checkbox" checked> Notify me when this connection has limited or no connectivity<br></div>
+                </div><!--/dialogContent--> 
+                
+                
+                
+
+                <div class="dialogFooter">
+				<div class="footerButton" id="cancel">Cancel</div>
+                <div class="footerButton" id="ok">OK</div>
+            </div>  
+            </div> <!--dialogBody-->
+        </div><!--dialogContainer--> 
+    </body>
+</html>

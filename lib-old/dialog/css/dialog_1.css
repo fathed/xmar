@@ -1,0 +1,61 @@
+/* 
+    Created on : Jun 1, 2015, 2:31:09 PM
+    Author     : SCOTT.KOTZ
+*/
+
+
+/*Basic Resets*/
+
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: Verdana, Arial, san-serif; 
+}
+.left{
+    float: left; 
+}
+.right{
+    float:right; 
+}
+.clrFloat{
+    clear: both; 
+}
+
+
+
+/*Dialog Setup*/
+
+.dialogContainer{
+    border: 1px solid #000; 
+}
+.dialogHeader{
+    height: 29px; 
+    width: 100%; 
+    background: #fff;
+}
+.dialogTitleArea{
+    width: 80%; 
+    height: 100%;
+}
+.imageIcon{
+    width: 5%; 
+    height: 75%;
+    margin-top: 2px; 
+    margin-left: 2px; 
+    background: #1c94c4; 
+
+}
+.dialogTitle{
+    padding-top: 5px;
+    padding-left: 5px; 
+    font-size: 13px; 
+}
+.dialogbtnsArea{
+    width: 20%; 
+    height: 100%; 
+    background: #00F; 
+}
+
+.dialogIcon_boxes{ 
+    border-radius: 5px !important;
+}

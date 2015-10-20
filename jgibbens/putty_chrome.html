@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+Written by J Gibbens
+
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link href="lib/assets/putty/css/putty_j.css" rel="stylesheet" type="text/css"/>-->
+    </head>
+    <body>
+        
+        <script src="../tools/redcom/jquery/jquery-1.10.2.js" type="text/javascript"></script>
+        <script src="../tools/redcom/jquery/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+        <script>
+            var putty = {};
+            
+           
+            
+        
+        $.getScript('lib/assets/putty/init_putty.js').success(function () {
+                putty = new init_putty();
+                putty.buildPutty('body');
+            });
+            
+        </script>
+    </body>
+</html>

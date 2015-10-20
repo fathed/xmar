@@ -1,0 +1,301 @@
+
+
+
+/* 
+    Created on : Jun 1, 2015, 2:31:09 PM
+    Author     : SCOTT.KOTZ
+	Updated    : DEMETRIUS.SMITH
+*/
+
+
+/*Basic Resets*/
+
+*{
+    margin: 0; 
+    /* padding-left: 12px; */
+    padding: 0; 
+    font-family: Verdana, Arial, san-serif; 
+	}
+body {
+	margin:20px;
+	}
+.leftFloat {
+    float: left; 
+	}
+.rightFloat {
+    float:right; 
+	}
+.clrFloat {
+    clear: both; 
+	}
+.generalShadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+
+/*Dialog Setup*/
+
+.dialogContainer {
+    height: 450px; 
+    background: #f7f7f7;   
+    border-radius: 5px;
+    min-height: 500px; 
+    width: 367px; 
+    border: 1px solid #000; 
+	}
+
+/*//////////  Dialog Header Area \\\\\\\\\\\\*/
+.dialogHeader {
+    height: 29px; 
+    width: 100%; 
+    /*    background: #000;*/
+	}
+.dialogTitleArea {
+    min-width: 25%; 
+    height: 100%;
+    padding: 5px 0 0 10px; ; 
+	}
+.imageIcon {
+    width: 18px; 
+    height: 17px;
+    /* margin-top: 2px; */ 
+    margin-left: 2px; 
+    margin-right: 5px;
+    background: #1c94c4; 
+	}
+.dialogTitle {
+    padding-top: 5px;
+    padding-left: 5px; 
+    font-size: 12px; 
+	}
+.dialogbtnsArea {
+    width: 43px; 
+    height: 20px; 
+    margin-right:11px;
+    border-right: 1px solid #7c7c7c;
+    border-left: 1px solid #7c7c7c;
+    border-bottom: 1px solid #7c7c7c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+	}   
+.greybutton {
+    background: #cfcfd1 linear-gradient(to bottom, #eaeaea 1%,#eaeaea 51%,#d2d2d2 53%,#dcdee5 100%);
+    border-right: 1px solid #7c7c7c;
+	}
+.redbutton {
+    background: #c35340 linear-gradient(to bottom, #f7b7ad 0%,#e98979 50%,#d95139 51%,#d28573 100%);
+	}
+#dialogMinize {
+    width: 23px; 
+    height: 100%; 
+     border-bottom-left-radius: 4px;
+	}
+#dialogMaximize {
+    width: 23px; 
+    height: 100%; 
+	}
+#dialogClose {
+    width: 43px;
+    height: 100%; 
+    border-bottom-right-radius: 4px;
+    text-align: center; 
+	}
+.btnIconShadow {
+	box-shadow: 0px 0px 0px 1px rgba(83,86,102,.75),inset 0px 0px 0px 1px rgba(83,86,102,.75);
+	}
+.btnIconShadow {
+    box-shadow: 0px 0px 0px 1px rgba(83,86,102,.75),inset 0px 0px 0px 1px rgba(83,86,102,.75);
+	}
+#minimizeBtnIcon {
+    height: 0px; 
+    width: 9px; 
+    border: 3px solid #eeeeee; 
+
+/*    border-image:
+      linear-gradient(to bottom, #fff, rgba(188, 188, 188, 1)) 1 100%;*/
+
+    /*    border-image:
+          linear-gradient(to bottom, #fff, rgba(188, 188, 188, 1)) 1 100%;*/
+    margin: 9px auto 0; 
+    border-radius: 1px; 
+	}
+#maximizeBtnIcon {
+    height: 3px; 
+    width: 9px; 
+    border: 3px solid #e8e8e8; 
+    margin: 7px auto 0; 
+    /*box-shadow: ;*/
+	}
+#clseBtnIcon {
+    color: #fff; 
+	}
+#clseBtnIcon:before {
+	content: 'x'; // here is your X(cross) sign.
+	font-family: Arial, sans-serif;
+    font-weight: bold; 
+    line-height: 10px; 
+    line-height: 15px; 
+    text-shadow:0px 0px 2px #000;
+    font-size: 18px; 
+    line-height: 15px; 
+    text-shadow:0px 0px 2px #000;
+    font-size: 18px; 
+	}
+
+
+/*/////////// Dialog Body Area \\\\\\\\\\\\*/
+
+.dialogBody {
+    margin: 9px 10px 0 8px; 
+    min-height: 451px;
+    max-height: 451px; 
+    max-width: 100%;     
+    border: 1px solid #7a7a7a; 
+    background: #f0f0f0;
+    font-size: 13px; 
+	}
+.dialogContent {
+	background: #fff;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	width:306px;
+	height:360px;
+	padding:10px;
+    max-height: 575px; 
+    overflow-y: auto;
+	border-left: 1px solid #898c95;
+	border-right: 1px solid #898c95;
+	border-bottom: 1px solid #898c95;
+	font-size:12px;
+	}
+.dialogContent:read-write:focus {
+    outline: none;
+	}
+.dialogContent:read-write:focus {
+    outline: none;
+	}
+.generalButton {
+	margin-top:10px;
+	margin-left:10px;
+	border-top: 1px solid #898c95;
+	border-left: 1px solid #898c95;
+	border-right: 1px solid #898c95;
+	width:56px;
+	height:21px;
+	padding-left:7px;
+	padding-top:5px;
+	font-size:11px;
+	background:#fff;
+	float:left;
+	}
+.advancedButton {
+	margin-top:13px;
+	border-top: 1px solid #898c95;
+	border-right: 1px solid #898c95;
+	border-bottom: 1px solid #898c95;
+	width:60px;
+	height:17px;
+	padding-left:4px;
+	padding-top:5px;
+	font-size:11px;
+	background: rgba(235,235,235,1);
+	background: -moz-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,235,235,1)), color-stop(45%, rgba(235,235,235,1)), color-stop(47%, rgba(221,221,221,1)), color-stop(100%, rgba(207,207,207,1)));
+	background: -webkit-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -o-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -ms-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: linear-gradient(to bottom, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#cfcfcf', GradientType=0 );
+	float:left;
+	}
+.emptyArea {
+	margin-top:10px;
+	border-bottom: 1px solid #898c95;
+	width:191px;
+	height:21px;
+	padding-left:7px;
+	padding-top:5px;
+	font-size:12px;
+	float:left;
+	}
+.innerContentBox {
+	width:200px;
+	height:20px;
+	padding:4px;
+	border: 1px solid #898c95;
+	float:left;
+	font-size:9px;	
+	}
+.innerContentButton {
+	margin-left:6px;
+	margin-top:4px;
+	border: 1px solid #898c95;
+	width:85px;
+	height:17px;
+	float:left;
+	text-align:center;
+	background: rgba(235,235,235,1);
+	background: -moz-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,235,235,1)), color-stop(45%, rgba(235,235,235,1)), color-stop(47%, rgba(221,221,221,1)), color-stop(100%, rgba(207,207,207,1)));
+	background: -webkit-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -o-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -ms-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: linear-gradient(to bottom, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#cfcfcf', GradientType=0 );
+	border-radius: 3px;
+	}
+.checkList {
+	font-size:10px;
+	width:296px;
+	height:80px;
+	border: 1px solid #7f9db9;
+	padding-left:7px;
+	line-height:20px;
+	margin-bottom:5px;
+	
+	}
+.bottomParagraph {
+	font-size:10px;
+	width:296px;
+	height:80px;
+	border: 1px solid #7f9db9;
+	border-radius: 3px;
+	padding-left:7px;
+	margin-top:42px;
+	}
+.finalCheckbox {
+	font-size:9.5px;
+	margin-top:10px;
+	line-height:15px;
+	}
+.descriptionTitle {
+	margin-top:-8px;
+	background-color:#FFF;
+	width:58px;
+	}
+/*/////////////// Dialog Footer Area \\\\\\\\\\\\\\*/
+
+.dialogFooter {
+    height: 20px; 
+    max-width: 100%; 
+    margin: -3px 10px 5px 10px; 
+    font-size: 13px; 
+	float:right;
+	}
+.footerButton {
+	margin:0 3px;
+	border: 1px solid #898c95;
+	width:60px;
+	height:17px;
+	float:right;
+	text-align:center;
+	background: rgba(235,235,235,1);
+	background: -moz-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,235,235,1)), color-stop(45%, rgba(235,235,235,1)), color-stop(47%, rgba(221,221,221,1)), color-stop(100%, rgba(207,207,207,1)));
+	background: -webkit-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -o-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: -ms-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	background: linear-gradient(to bottom, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 45%, rgba(221,221,221,1) 47%, rgba(207,207,207,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#cfcfcf', GradientType=0 );
+	border-radius: 3px;
+	}

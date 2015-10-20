@@ -1,0 +1,20 @@
+/*
+Written by J Gibbens
+
+*/
+/* 
+    Created on : Jun 16, 2015, 12:57:41 PM
+    Author     : gibbensj
+*/
+
+body{
+    padding: 20px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+@font-face {
+    font-family: console;
+    src: url(../fonts/Consolas/CONSOLA.TTF);
+
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dialog Box</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/dialog.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="dialogContainer">
+
+            
+            <div class="dialogHeader">
+           
+                
+                
+                <div class="dialogTitleArea leftFloat">
+                <div class="imageIcon leftFloat"></div><!--imageIcon-->
+                <div class="dialogTitle leftFloat"><p>Title</p></div><!--dialogTitle-->
+                <div class='clrFloat'></div> 
+                </div> <!--dialogTitleArea-->
+                
+                
+                
+                
+                <div class="dialogbtnsArea rightFloat">
+              
+                        <div id='dialogMinize' class='greybutton leftFloat'></div>
+                        <div id='dialogMaximize' class='greybutton leftFloat'></div>
+                        <div id='dialogClose' class='redbutton leftFloat'></div>
+
+                        <div class='clrFloat'></div> 
+            
+
+                </div> <!--dialogbtnsArea-->
+
+                <div class='clrFloat'></div> 
+                
+            </div><!--dialogHeader--> 
+            
+            
+            
+            <div class='dialogBody'>
+                <div class='dialogBodyHeader'></div><!--/dialogBodyHeader-->
+                <div class='dialogContent'>
+                    
+
+
+                    
+                </div><!--/dialogContent--> 
+                
+                
+            </div> <!--dialogBody-->
+
+            
+            <div class="dialogFooter"></div> <!--dialogFooter--><!-- This has been created just in case the dialog box needs to have a footer-->
+
+
+        </div><!--dialogContainer--> 
+        <!--checking to see if this works? --> 
+
+    </body>
+</html>
+
